@@ -1,0 +1,160 @@
+============================================================
+          RAINFALL BIG DATA ANALYSIS - PROJECT SUMMARY
+============================================================
+
+TECHNOLOGIES
+------------
+Apache Hadoop
+HDFS
+Apache Spark
+PySpark
+Python
+Pandas
+Matplotlib
+Ubuntu WSL
+
+
+============================================================
+1. MONTHLY RAINFALL ANALYSIS
+============================================================
+
+Month                     Average Rainfall (mm)
+
+JAN                       18.94
+FEB                       21.60
+MAR                       27.41
+APR                       43.07
+MAY                       85.66
+JUN                       230.12
+JUL                       347.02
+AUG                       289.74
+SEP                       197.32
+OCT                       95.32
+NOV                       39.50
+DEC                       18.97
+
+Wettest Month:
+JUL - July
+Average Rainfall: 347.02 mm
+
+Driest Month:
+JAN - January
+Average Rainfall: 18.94 mm
+
+
+============================================================
+2. SEASONAL RAINFALL ANALYSIS
+============================================================
+
+Season                         Average (mm)
+
+Winter (January-February)      40.52
+Pre-Monsoon (March-May)        155.82
+Monsoon (June-September)       1063.85
+Post-Monsoon (October-December)153.65
+
+Wettest Season:
+Monsoon (June-September)
+Average Rainfall: 1063.85 mm
+
+Driest Season:
+Winter (January-February)
+Average Rainfall: 40.52 mm
+
+
+============================================================
+3. REGIONAL RAINFALL ANALYSIS
+============================================================
+
+TOP 10 WETTEST REGIONS
+
+1. Arunachal Pradesh
+   Average Annual Rainfall: 3403.96 mm
+
+2. Coastal Karnataka
+   Average Annual Rainfall: 3397.64 mm
+
+3. Konkan & Goa
+   Average Annual Rainfall: 2987.53 mm
+
+4. Andaman & Nicobar Islands
+   Average Annual Rainfall: 2926.37 mm
+
+5. Kerala
+   Average Annual Rainfall: 2914.25 mm
+
+6. Sub Himalayan West Bengal & Sikkim
+   Average Annual Rainfall: 2750.55 mm
+
+7. Assam & Meghalaya
+   Average Annual Rainfall: 2579.13 mm
+
+8. Naga Mani Mizo Tripura
+   Average Annual Rainfall: 2432.72 mm
+
+9. Lakshadweep
+   Average Annual Rainfall: 1587.29 mm
+
+10. Gangetic West Bengal
+    Average Annual Rainfall: 1490.61 mm
+
+
+DRIEST REGION
+
+West Rajasthan
+Average Annual Rainfall: 294.13 mm
+
+
+============================================================
+4. LONG-TERM RAINFALL TREND ANALYSIS
+============================================================
+
+First Year:
+1901
+
+Average Rainfall in First Year:
+1284.21 mm
+
+Last Year:
+2017
+
+Average Rainfall in Last Year:
+1368.01 mm
+
+Absolute Change:
+83.8 mm
+
+Percentage Change:
+6.53 %
+
+Trend Slope:
+-0.2808 mm/year
+
+Overall Fitted Trend:
+DECREASING
+
+
+============================================================
+5. VISUALIZATIONS
+============================================================
+
+1. annual_rainfall_trend.png
+2. monthly_rainfall.png
+3. seasonal_rainfall.png
+4. regional_rainfall.png
+
+
+============================================================
+6. HDFS OUTPUTS
+============================================================
+
+/rainfall/output/annual_analysis
+/rainfall/output/monthly_analysis
+/rainfall/output/seasonal_analysis
+/rainfall/output/regional_analysis
+/rainfall/output/trend_analysis
+
+
+============================================================
+END OF PROJECT SUMMARY
+============================================================
